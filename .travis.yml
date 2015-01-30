@@ -11,6 +11,6 @@ deploy:
   skip_cleanup: true
   token:
     secure: M+dWt53MUJsaOyy6tJUILat0rM/aKr7wXpfgNFIgi60Q/7dmFa0C9ocfOCOBgTFpQ+9/h3UjwSTgU971b/wwmoLw+swahSfAqw1Awv6gDHXAzb04d9jOTccZzg276eh3muznKqiZlNy3+oVX/m2bJ5NFrPLcV8N+Vj0BmiFXliI=
-  dist: ubuntu/precise
+  dist: ubuntu/trusty
   on:
     branch: master
