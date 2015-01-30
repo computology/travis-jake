@@ -6,6 +6,7 @@ script:
 deploy:
   provider: packagecloud
   username: roidrage
+  edge: true
   repository: testy
   skip_cleanup: true
   token:
