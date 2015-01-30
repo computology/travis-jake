@@ -1,0 +1,17 @@
+Package: jake
+Version: 1.0-7
+Architecture: amd64
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Maintainer: jake <joe@packagecloud.io>
+Installed-Size: 8
+Depends: dpkg (>= 1.15.4) | install-info, libc6 (>= 2.4)
+Suggests: indent
+Conflicts: cervisia-kde4, cheese (<< 2.29.90-0ubuntu1)
+Breaks: gnome-control-center (<< 1:2.30.0-0ubuntu4)
+Replaces: gnome-games (<< 1:2.27.5-0ubuntu2), gnome-games-data (<< 1:2.27.5-0ubuntu2)
+Provides: jake
+Section: misc
+Priority: optional
+Homepage: http://www.chkrootkit.org/
+Description: На берегу пустынных волн

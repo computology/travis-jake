@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	install -D -m 0755 jake $$(pwd)/debian/jake/usr/local/bin/jake
+
+override_dh_installman:
+	install -D -m 0644 jake.1 $$(pwd)/debian/jake-doc/usr/local/share/man/man1/jake.1
+
+override_dh_usrlocal:
+

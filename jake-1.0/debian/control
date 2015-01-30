@@ -1,0 +1,31 @@
+Source: jake
+Maintainer: jake <joe@packagecloud.io>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.3
+Build-Depends: pkg-config, quilt
+Build-Depends-Indep: debhelper (>= 2.0.40), gettext, bzip2, cpio
+Build-Conflicts: tk8.0-dev
+Dm-Upload-Allowed: yes
+Homepage: http://www.chkrootkit.org/
+Vcs-Browser: http://git.debian.org/?p=collab-maint/chkrootkit.git
+Vcs-Git: git://git.debian.org/git/collab-maint/chkrootkit.git
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: jake
+Architecture: i386 amd64
+Replaces: gnome-games (<< 1:2.27.5-0ubuntu2), gnome-games-data (<< 1:2.27.5-0ubuntu2)
+Provides: jake
+Suggests: indent
+Breaks: gnome-control-center (<< 1:2.30.0-0ubuntu4)
+Conflicts: cervisia-kde4, cheese (<< 2.29.90-0ubuntu1)
+Depends: dpkg (>= 1.15.4) | install-info, libc6 (>= 2.4), ${shlibs:Depends}, ${misc:Depends}
+Description: На берегу пустынных волн
+
+Package: jake-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Suggests: jake
+Description: Documentation for jake

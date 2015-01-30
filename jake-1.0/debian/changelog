@@ -1,0 +1,42 @@
+jake (1.0-7) precise; urgency=low
+
+  * Add build and install deps, conflicts, breaks for more thorough testing
+  * A small change just for testing
+
+ -- Joe Damato <joe@packagecloud.io>  Wed, 11 Jun 2014 12:29:43 -0800
+
+jake (1.0-6) precise; urgency=low
+
+  * Add documentation for jake
+
+ -- Joe Damato <joe@packagecloud.io>  Sun, 28 May 2014 12:29:43 -0800
+
+jake (1.0-5) precise; urgency=low
+
+  * Add documentation for jake
+
+ -- Joe Damato <joe@packagecloud.io>  Sun, 17 May 2014 12:29:43 -0800
+
+jake (1.0-4) precise; urgency=low
+
+  *  إن شاء الله
+
+ -- Joe Damato <joe@packagecloud.io>  Sun, 26 Apr 2014 10:45:19 -0800
+
+jake (1.0-3) UNRELEASED; urgency=low
+
+  *  Μονάχη ἔγνοια ἡ γλῶσσα μου στὶς ἀμμουδιὲς τοῦ Ὁμήρου.
+
+ -- Joe Damato <joe@packagecloud.io>  Sun, 26 Apr 2014 10:45:19 -0800
+
+jake (1.0-2) UNRELEASED; urgency=low
+
+  * Fix jake install directory in rules, lol
+
+ -- Joe Damato <joe@packagecloud.io>  Sun, 22 Mar 2014 10:45:19 -0800
+
+jake (1.0-1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Joe Damato <joe@packagecloud.io>  Sun, 02 Mar 2014 22:47:58 -0800

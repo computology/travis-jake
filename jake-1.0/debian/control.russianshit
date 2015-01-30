@@ -1,0 +1,11 @@
+Source: jake
+Maintainer: jake <joe@packagecloud.io>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 9)
+
+Package: jake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: На берегу пустынных волн

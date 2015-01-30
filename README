@@ -1,0 +1,8 @@
+## Ready to build jake.deb for travis-ci
+
+# Requirements:
+build-essential devscripts debhelper quilt pkg-config
+
+# Instructions:
+cd jake-1.0
+debuild -us -uc

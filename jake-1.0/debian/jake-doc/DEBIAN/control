@@ -1,0 +1,13 @@
+Package: jake-doc
+Source: jake
+Version: 1.0-7
+Architecture: all
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Maintainer: jake <joe@packagecloud.io>
+Installed-Size: 2
+Suggests: jake
+Section: doc
+Priority: optional
+Homepage: http://www.chkrootkit.org/
+Description: Documentation for jake

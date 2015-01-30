@@ -1,0 +1,4 @@
+Simple program and packaging for testing deb packages.
+
+Use the make target:  make package  to generate an orig tarball and build the
+deb package.
